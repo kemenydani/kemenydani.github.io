@@ -37,7 +37,7 @@ define(["openlayers", "olstyles", "jquery"], function(ol, styles, jquery){
 	    //center: ol.proj.transform([8.6, 49], self.defaultDataProjection, "EPSG:3857"),
 	    center: [8.4, 48.8],
 	    zoom: 10,
-	    minZoom: 9,
+	    //minZoom: 9,
 	    projection: self.defaultFeatureProjection
 	});
 
